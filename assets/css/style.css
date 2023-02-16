@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* sets background color of the body of the page to white */
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #2a607c;  /* set background color of header to dark blue */
     color: #ffffff;
 }
 
@@ -41,22 +41,38 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
+    /* sets bottom margin to 25 pixels */
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* This is a multi-line comment */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* below are style rules for all p tags in the document */
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -82,6 +98,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
+    /* sets the font style in the class  to gill sans */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -171,21 +188,6 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
